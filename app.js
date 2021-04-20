@@ -3,6 +3,6 @@ let circle = document.querySelector(".casino");
             angle = Math.random()*1000;
             time = Math.floor(Math.random()*5);
             this.style.transition = `${time+2}s`;
-            this.style.transform = `rotate(${angle+700}rad)`;
+            this.style.transform = `rotate(${angle+700}deg)`;
             console.log('time: ',time, "angle : ", angle)
         }
